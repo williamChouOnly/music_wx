@@ -1,0 +1,15 @@
+<!--miniprogram/pages/demo.wxml-->
+<!-- <text>miniprogram/pages/demo.wxml</text>
+<button bindtap="getMusicInfo">获取音乐信息</button>
+<button bindtap="getMovieInfo">获取电影信息</button> -->
+
+  <view class="userinfo">
+    <view class="userinfo-avatar">
+      <open-data  type="userAvatarUrl"></open-data>
+    </view>
+    <open-data type="userNickName" class="userNickName"></open-data>
+  </view>
+
+
+
+
